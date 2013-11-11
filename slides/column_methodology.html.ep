@@ -1,0 +1,24 @@
+%= div '.jumbotron.center' => begin
+  %= h3 begin
+    Simulations as modules</br>Configuration as scripts
+  % end
+% end
+%= vspace '50px'
+
+%= ul ms_overlay => '2-' => begin
+  %= li 'Every physical item is an object'
+  %= ul begin
+    %= li 'Including Observer (if needed)'
+    %= li 'Objects encapsulate relevant variables'
+  % end
+  %= li 'Forces/Interactions'
+  %= ul begin
+    %= li 'Contained within the objects'
+    %= li 'Probably defined as subrefs or closures'
+  % end
+  %= li 'Simulation object'
+  %= ul begin
+    %= li 'Build up system by composition'
+    %= li 'All interaction is mediated by simulation object'
+  % end
+% end

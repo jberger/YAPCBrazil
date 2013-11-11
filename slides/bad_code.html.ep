@@ -1,0 +1,28 @@
+% title 'Why do we write bad code?';
+
+%= row begin
+
+  %= column 6 => begin
+    %= incremental ul begin
+      %= li 'Simulations as Scripts'
+      %= include 'column_scripts'
+      %= li 'Simulations as Configuration Files'
+      %= ul begin
+        %= li 'Too many variables for senisible documentation'
+        %= li 'Configuration file is insufficiently flexible for reuse'
+      % end
+      %= li 'There are no tests'
+      %= li q{** It's too dirty to share without embarrassment **}
+    % end
+  % end 
+
+  %= column 6 => begin
+    %= p '.center' => begin
+      %= image 'good_code.png', width => '50%'
+    % end
+    %= p '.center' => begin
+      <a href="http://xkcd.com/844/">XKCD</a>
+    % end
+  % end
+
+% end

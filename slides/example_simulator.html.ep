@@ -1,0 +1,9 @@
+% title 'Object-Oriented Fixed-Width Numerical DiffEq System Solver';
+
+%= ppi 'Simulator.pm'
+
+%= javascript 'jquery.min.js'
+%= javascript begin
+  $('.ppi-code').first().css('display', 'block');
+% end
+

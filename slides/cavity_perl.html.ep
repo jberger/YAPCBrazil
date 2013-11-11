@@ -1,0 +1,26 @@
+% title 'Physics::RayTransfer';
+
+%= row begin
+  %= column 6 => begin
+    %= vspace '30px'
+    %= incremental ul begin
+      %= li 'Create simulation object'
+      %= li 'Add curved mirror'
+      %= li 'Add parameterized gap'
+      %= li 'Add flat mirror'
+      %= li 'Create list of L values'
+      %= li 'Get resulting W for each L'
+      %= li 'Plot using PDL and P::G::Prima'
+    % end
+
+    %= vspace '30px'
+    %= incremental 8, ul begin
+      %= li 'Easy to read'
+      %= li 'Easy to change'
+      %= li 'Easier to test'
+    % end
+  % end
+  %= column 6 => begin
+    %= ppi 'cavity_stability.pl'
+  % end
+% end

@@ -1,0 +1,10 @@
+%= div '.jumbotron.center' => begin
+  %= h2 'A Toy Example'
+% end
+
+%= vspace '75px'
+
+%= div '.center' => begin
+  %= h3 'An object-oriented fixed-width numerical differential equation solver'
+  %= p ms_overlay => '2-' => '(in about 100 lines)'
+% end

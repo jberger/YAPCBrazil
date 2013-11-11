@@ -1,0 +1,10 @@
+%= div '.center'  => begin
+
+  %= div '.center.jumbotron' => begin
+    %= h1 'The Scientific API:'
+    %= h2 'Designing your scientific code with your future user in mind'
+  % end
+
+  %= h3 'Joel Berger, Ph.D.'
+  %= h3 'YAPC::Brazil 2013'
+% end

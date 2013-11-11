@@ -1,0 +1,5 @@
+%= ul begin
+  %= li 'Configuration mixed in with the code'
+  %= li 'Hard to read and document'
+  %= li '"But it was only supposed to be a one-off!"'
+% end

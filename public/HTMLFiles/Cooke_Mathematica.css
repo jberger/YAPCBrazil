@@ -1,0 +1,102 @@
+/* Section:*/
+.Section {
+  padding: 8px;
+}
+.SectionInline {
+}
+/* Subsection:*/
+.Subsection {
+  padding: 8px;
+}
+.SubsectionInline {
+}
+/* Subsubsection:*/
+.Subsubsection {
+  padding: 8px;
+}
+.SubsubsectionInline {
+}
+/* Code:*/
+.Code {
+  font-weight: normal;
+  background-color: #FFFFFF;
+  padding: 8px;
+  border-left: 1px;
+  border-right: 0px;
+  border-top: 1px;
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: #CCCCCC;
+}
+.CodeInline {
+  font-weight: normal;
+  background-color: #FFFFFF;
+}
+/* Input:*/
+.Input {
+  padding: 8px;
+}
+.InputInline {
+}
+/* Output:*/
+.Output {
+  color: #4C4C4C;
+  padding: 8px;
+}
+.OutputInline {
+  color: #4C4C4C;
+}
+/* Message:*/
+.Message {
+  color: #CC8C8C;
+  padding: 8px;
+}
+.MessageInline {
+  color: #CC8C8C;
+}
+/* Print:*/
+.Print {
+  color: #4C4C4C;
+  padding: 8px;
+}
+.PrintInline {
+  color: #4C4C4C;
+}
+/* InformationCell:*/
+.InformationCell {
+  color: #4C4C4C;
+  padding: 8px;
+}
+.InformationCellInline {
+  color: #4C4C4C;
+}
+/* InformationLink:*/
+.InformationLink {
+  color: #737BB2;
+  padding: 8px;
+}
+.InformationLinkInline {
+  color: #737BB2;
+}
+/* InformationLinkLF:*/
+.InformationLinkLF {
+  color: #737BB2;
+  padding: 8px;
+}
+.InformationLinkLFInline {
+  color: #737BB2;
+}
+
+@media screen{
+/* All:Working*/
+html {
+  background-color: #F2F2F2;
+}
+}
+
+@media print{
+}
+
+.script {font-family: Mathematica5, cursive}
+.gothic {font-family: Mathematica6, Century Gothic}
+.doublestruck {font-family: Mathematica7}

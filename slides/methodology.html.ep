@@ -1,0 +1,9 @@
+% title 'Recommended Simulation Methodology';
+
+%= row begin
+
+  %= column 6 => begin
+    %= include 'column_methodology'
+  % end
+
+% end

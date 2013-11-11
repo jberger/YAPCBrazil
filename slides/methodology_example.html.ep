@@ -1,0 +1,14 @@
+% title 'Recommended Simulation Methodology';
+
+%= row begin
+
+  %= column 6 => begin
+    %= include 'column_methodology'
+  % end
+
+  %= column 6 => begin
+    %= div ms_overlay => '3-' => begin
+      %= ppi 'sim.pl' 
+    % end
+  % end
+% end

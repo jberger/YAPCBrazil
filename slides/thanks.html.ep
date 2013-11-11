@@ -1,0 +1,10 @@
+%= div '.center'  => begin
+
+  %= div '.center.jumbotron' => begin
+    %= h1 'Thank you!'
+    %= h2 'Any questions?'
+  % end
+
+  %= h3 'Joel Berger, Ph.D.'
+  %= h3 'YAPC::Brazil 2013'
+% end

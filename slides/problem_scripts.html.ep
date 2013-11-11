@@ -1,0 +1,13 @@
+
+%= div '.jumbotron.center' => begin
+  %= h2 'Problem 1: Simulations as Scripts';
+% end
+
+%= vspace '75px'
+
+%= row begin
+  %= column [6, 'offset-4'] => begin
+    %= include 'column_scripts'
+  % end
+% end
+

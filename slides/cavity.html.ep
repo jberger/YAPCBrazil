@@ -1,0 +1,63 @@
+% title 'Cavity Stability vs Cavity Length';
+
+% my $M_L = begin
+  \begin{pmatrix}
+    1 & L \\\\
+    0 & 1
+  \end{pmatrix}
+% end
+
+% my $M_I = begin
+  \begin{pmatrix}
+    1 & 0 \\\\
+    0 & 1
+  \end{pmatrix}
+% end
+
+% my $M_R = begin
+  \begin{pmatrix}
+    1 & 0 \\\\
+    -2/R & 1
+  \end{pmatrix}
+% end
+
+%= vspace '50px'
+
+%= row begin
+  %= column 6 => begin
+    %= div '.well', style => 'display: inline-block;' => begin
+      %== slurp 'public/cavity.svg'
+    % end
+  % end
+  %= column 6 => begin
+    %= div ms_overlay => '1' => begin
+      \[ <%= $M_I->() %> \]
+    % end
+
+    %= div ms_overlay => '2' => begin
+      \[ <%= $M_I->() . $M_L->() %> \]
+    % end
+
+    %= div ms_overlay => '3' => begin
+    \[ <%= $M_I->() . $M_L->() . $M_R->() %> \]
+    % end
+
+    %= div ms_overlay => '4-' => begin
+    \[ <%= $M_I->() . $M_L->() . $M_R->() . $M_L->() %> \]
+    % end
+
+    %= vspace '50px'
+
+    %= incremental ul begin
+      %= li 'Start at output coupler'
+      %= li 'Traverse distance L to curved mirror'
+      %= li 'Reflect off curved mirror of ROC R'
+      %= li 'Traverse the distance L back to OC'
+      %= li 'Check spot size (w) at OC'
+      %= li 'Cavity is stable if w is real for given L'
+      %= li 'Matricies become unmanageable for all but simplest systems'
+    % end
+  % end
+% end
+
+

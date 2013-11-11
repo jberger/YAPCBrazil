@@ -1,0 +1,7 @@
+% title 'Physics::UEMColumn - Cooke Triplet';
+
+%= row begin
+  %= column 8 => begin
+    %= ppi 'Cooke.pl'
+  % end
+% end
