@@ -5,6 +5,16 @@
     %= h2 'Any questions?'
   % end
 
-  %= h3 'Joel Berger, Ph.D.'
+  %= vspace '50px'
+
+  %= p begin
+    %= a href => 'http://www.estantevirtual.com.br/' => begin
+      %= image 'logo_estante.png'
+    % end
+  % end
+  %= p 'Compre livros seminovos e usados no maior acervo do Brasil.'
+
+  %= vspace '50px'
+
   %= h3 'YAPC::Brazil 2013'
 % end

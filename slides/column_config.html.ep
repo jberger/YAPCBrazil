@@ -1,0 +1,4 @@
+%= ul begin
+  %= li 'Too many variables for senisible documentation'
+  %= li 'Configuration file is insufficiently flexible for reuse'
+% end

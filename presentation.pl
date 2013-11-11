@@ -34,6 +34,7 @@ $pres->{slides}{list} = [qw/
   example
   methodology_example
   example_simulator
+  problem_configuration
   superfish
   Cooke_Mathematica
   uemcolumn

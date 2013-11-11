@@ -7,10 +7,7 @@
       %= li 'Simulations as Scripts'
       %= include 'column_scripts'
       %= li 'Simulations as Configuration Files'
-      %= ul begin
-        %= li 'Too many variables for senisible documentation'
-        %= li 'Configuration file is insufficiently flexible for reuse'
-      % end
+      %= include 'column_config'
       %= li 'There are no tests'
       %= li q{** It's too dirty to share without embarrassment **}
     % end
