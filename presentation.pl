@@ -12,7 +12,11 @@ my $pres = {
   bootstrap_theme => 1,
   static => File::Spec->catdir($dir, 'public'),
   templates => File::Spec->catdir($dir, 'slides'),
-  extra_js  => ['myjs.js', '/MathJax/MathJax.js?config=default'],
+  extra_js  => [
+    'myjs.js', 
+    '/MathJax/MathJax.js?config=default',
+    # 'http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default',
+  ],
   extra_css => 'mycss.css',
   finally => sub {
     my $app = shift;
