@@ -8,8 +8,8 @@
       %= li 'Add curved mirror'
       %= li 'Add parameterized gap'
       %= li 'Add flat mirror'
-      %= li 'Create list of L values'
-      %= li 'Get resulting W for each L'
+      %= li 'Create list of \(L\) values (0 to 10 by 0.1)'
+      %= li 'Get resulting \(w\) for each \(L\)'
       %= li 'Plot using PDL and P::G::Prima'
     % end
 

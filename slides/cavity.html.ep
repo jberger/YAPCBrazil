@@ -30,6 +30,8 @@
     % end
   % end
   %= column 6 => begin
+    %= p 'Ray Transfer Matricies Analysis'
+
     %= div ms_overlay => '1' => begin
       \[ <%= $M_I->() %> \]
     % end
@@ -50,11 +52,11 @@
 
     %= incremental ul begin
       %= li 'Start at output coupler'
-      %= li 'Traverse distance L to curved mirror'
-      %= li 'Reflect off curved mirror of ROC R'
-      %= li 'Traverse the distance L back to OC'
-      %= li 'Check spot size (w) at OC'
-      %= li 'Cavity is stable if w is real for given L'
+      %= li 'Traverse distance \(L\) to curved mirror'
+      %= li 'Reflect off curved mirror of ROC \(R\)'
+      %= li 'Traverse the distance \(L\) back to OC'
+      %= li 'Check spot size (\(w\)) at OC'
+      %= li 'Cavity is stable if \(w\) is real for given \(L\)'
       %= li 'Matricies become unmanageable for all but simplest systems'
     % end
   % end

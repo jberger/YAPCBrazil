@@ -5,7 +5,7 @@ sub import {
   Simulator::Types->import::into(scalar(caller), ':all');
 }
 
-use Moops;
+use Moops; # Moo + Type::Tiny + Function::Parameters + sugar!
 
 library Types
   extends Types::Standard

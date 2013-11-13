@@ -3,7 +3,7 @@
     Simulations as modules</br>Configuration as scripts
   % end
 % end
-%= vspace '50px'
+%= vspace '30px'
 
 %= ul ms_overlay => '2-' => begin
   %= li 'Every physical item is an object'
@@ -11,14 +11,17 @@
     %= li 'Including Observer (if needed)'
     %= li 'Objects encapsulate relevant variables'
   % end
+  %= li 'Subrefs/closures act as (composable) equations'
   %= li 'Forces/Interactions'
   %= ul begin
-    %= li 'Contained within the objects'
-    %= li 'Probably defined as subrefs or closures'
+    %= li 'Possibly objects themselves'
+    %= li 'Possibly contained within the physical objects'
+    %= li 'Are/contain subrefs or closures'
   % end
   %= li 'Simulation object'
   %= ul begin
     %= li 'Build up system by composition'
-    %= li 'All interaction is mediated by simulation object'
+    %= li 'Mediates all interaction between objects'
+    %= li 'Tracks system evolution'
   % end
 % end

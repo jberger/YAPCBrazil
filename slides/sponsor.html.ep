@@ -1,0 +1,6 @@
+%= p begin
+  %= a href => 'http://www.estantevirtual.com.br/' => begin
+    %= image 'logo_estante.png'
+  % end
+% end
+%= p 'Compre livros seminovos e usados no maior acervo do Brasil.'

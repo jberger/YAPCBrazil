@@ -6,5 +6,9 @@
   % end
 
   %= h3 'Joel Berger, Ph.D.'
-  %= h3 'YAPC::Brazil 2013'
+  %= h3 'YAPC::Brasil 2013'
+
+  %= vspace '50px'
+
+  %= include 'sponsor'
 % end

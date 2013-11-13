@@ -5,5 +5,6 @@
 %= javascript 'jquery.min.js'
 %= javascript begin
   $('.ppi-code').first().css('display', 'block');
+  $('.ppi-code .label').each(function(){ $(this).removeClass() }); // hack for label clash :-/
 % end
 

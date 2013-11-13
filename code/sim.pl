@@ -1,7 +1,6 @@
 #!/usr/bin/env perl
 
 use strict; use warnings;
-
 use Simulator;
 use PDL;
 use PDL::Graphics::Prima::Simple;
@@ -9,7 +8,6 @@ use PDL::Graphics::Prima::Simple;
 my $article = Article->new( mass => 2 );
 
 my $up   = Force->new( strength => 2 );
-
 my $down = Force->new(
   strength => -30,
   affect => sub {

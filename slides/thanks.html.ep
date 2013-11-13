@@ -1,20 +1,15 @@
 %= div '.center'  => begin
 
-  %= div '.center.jumbotron' => begin
+  %= incremental div '.center.jumbotron' => begin
     %= h1 'Thank you!'
     %= h2 'Any questions?'
   % end
 
   %= vspace '50px'
 
-  %= p begin
-    %= a href => 'http://www.estantevirtual.com.br/' => begin
-      %= image 'logo_estante.png'
-    % end
-  % end
-  %= p 'Compre livros seminovos e usados no maior acervo do Brasil.'
+  %= include 'sponsor'
 
   %= vspace '50px'
 
-  %= h3 'YAPC::Brazil 2013'
+  %= h3 'YAPC::Brasil 2013'
 % end

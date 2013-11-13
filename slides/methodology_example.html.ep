@@ -6,7 +6,7 @@
     %= include 'column_methodology'
   % end
 
-  %= column 6 => begin
+  %= column [5, 'offset-1'] => begin
     %= div ms_overlay => '3-' => begin
       %= ppi 'sim.pl' 
     % end

@@ -4,7 +4,7 @@ my (undef, $dir) = app->presentation_file;
 
 app->helper( slurp => sub {
   require Mojo::Util;
-  return Mojo::Util::slurp($_[1]);
+  return Mojo::Util::decode('UTF-8', Mojo::Util::slurp($_[1]));
 });
 
 my $pres = {
@@ -23,7 +23,8 @@ my $pres = {
 
 $pres->{slides}{list} = [qw/
   title
-  bad_code
+  sharing
+  unshareable_code
   methodology
   problem_scripts
   gain_Mathematica

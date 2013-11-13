@@ -1,4 +1,4 @@
-% title 'Why do we write bad code?';
+% title 'Why do we write unshareable code?';
 
 %= row begin
 
@@ -9,7 +9,14 @@
       %= li 'Simulations as Configuration Files'
       %= include 'column_config'
       %= li 'There are no tests'
-      %= li q{** It's too dirty to share without embarrassment **}
+      %= ul begin
+        %= li '"How do you test a simulation?"'
+      % end
+      %= li 'The system does not encourage sharing'
+      %= ul begin
+        %= li '"It will not fit in publications"'
+      % end
+      %= li q{"I can't share this!"}
     % end
   % end 
 

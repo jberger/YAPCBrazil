@@ -2,7 +2,7 @@
 
 %= row begin
 
-  %= column 6 => begin
+  %= column [6, 'offset-3'] => begin
     %= include 'column_methodology'
   % end
 

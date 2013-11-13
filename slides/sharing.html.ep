@@ -1,0 +1,33 @@
+% title 'Code Sharing';
+
+%= p begin
+  As Open Source developers, we share our code. Why?
+  %= ul begin
+    %= li 'improve the aggregate state of software'
+    %= li 'help others'
+    %= li 'exchange ideas'
+  % end
+% end
+
+%= div ms_overlay => '2-', begin
+  %= p begin
+    As Scientists we share our methods and results. Why?
+    %= ul begin
+      %= li 'improve the aggregate state of knowledge'
+      %= li 'help others'
+      %= li 'exchange ideas'
+    % end
+  % end
+% end
+
+%= div ms_overlay => '3-', begin
+  %= p begin
+    As Scientists (many also being Open Source developers), we don't share our code. Why?
+    %= ul begin
+      %= li 'We write the code for ourselves'
+      %= li q{It's too hard to present}
+      %= li 'It does not fit in publications'
+      %= li q{It wasn't designed with end-users in mind}
+    % end
+  % end
+% end

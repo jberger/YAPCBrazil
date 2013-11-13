@@ -1,3 +1,14 @@
 % title 'Laser Cavity Gain - Physics::RayTransfer';
 
-%= ppi 'gain.pl'
+%= row begin
+  %= column 6 => begin
+    %= vspace '30px'
+    %== slurp 'public/gain.svg'
+  % end
+
+  %= column 6 => begin
+    %= div ms_overlay => '3-', begin
+      %= ppi 'gain.pl'
+    % end
+  % end
+% end
