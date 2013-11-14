@@ -1,0 +1,10 @@
+% title 'Final Problem: Perl has no compiling!';
+
+
+%= vspace '30px'
+%= div '.center' => begin
+  %= image 'compiling.png'
+  %= p begin
+    <a href="http://xkcd.com/303/">XKCD</a>
+  % end
+% end

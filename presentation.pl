@@ -48,6 +48,7 @@ $pres->{slides}{list} = [qw/
   testing
   no_bugs
   can_share
+  problem_final
   thanks
 /];
 
