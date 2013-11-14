@@ -1,37 +1,65 @@
 % title 'Now you can share!';
 
-%= p begin 
-  Share your simulation modules via:
-  %= ul begin
-    %= li 'GitHub'
-    %= li 'CPAN'
-    %= ul begin
-      %= li 'Physics::RayTransfer'
-      %= li 'Physics::UEMColumn'
-    % end
-  % end
-  Of course CPAN can help satisfy:
-  %= ul begin
-    %= li 'Perl dependencies'
-    %= li 'C dependencies via Alien:: modules (plug: Alien::Base)'
-  % end
-% end
+%= row begin
 
-%= p begin
-  Include your simulation library from publication!
-  %= ul begin
-    %= li 'Specify module name and version (and repository if not on CPAN)'
-    %= li 'Include your script in the text or appendix'
+  %= incremental column 6 => begin
+
+    %= p begin 
+      Share your simulation modules via:
+      %= ul begin
+        %= li 'GitHub'
+        %= li 'CPAN'
+        %= ul begin
+          %= li 'Physics::RayTransfer'
+          %= li 'Physics::UEMColumn'
+        % end
+      % end
+    % end
+
+    %= p begin
+      Of course CPAN can help satisfy:
+      %= ul begin
+        %= li 'Perl dependencies'
+        %= li 'C dependencies via Alien:: modules (plug: Alien::Base)'
+      % end
+    % end
+
+    %= p begin
+      Include your simulation library from publication!
+      %= ul begin
+        %= li 'Specify module name and version (and repository if not on CPAN)'
+        %= li 'Include your script in the text or appendix'
+      % end
+    % end
+
+    %= p begin
+      Reads/reviewers may now:
+      %= ul begin
+        %= li 'Read your script'
+        %= li 'Further investigate your module if desired'
+        %= li 'See your tests!'
+      % end
+    % end
+
+    %= p begin
+      User of your module:
+      %= ul begin
+        %= li q{Don't rewrite the wheel}
+        %= li 'Versioned distribution for reproducibility'
+        %= li 'Site your paper when doing so'
+      % end
+    % end
+
   % end
-  Reads/reviewers may now:
-  %= ul begin
-    %= li 'Read your script'
-    %= li 'Further investigate your module if desired'
-    %= li 'See your tests!'
-    %= li 'Use your module'
-    %= ul begin
-      %= li 'Module is versioned for reproducibility'
-      %= li 'Site your paper when doing so'
+
+  %= column 6 => begin
+    %= vspace '30px'
+    %= div '.center' => ms_overlay => '9-' => begin
+      %= image 'academia_vs_business.png', width => '90%'
+      %= p begin
+        <a href="http://xkcd.com/303/">XKCD</a>
+      % end
     % end
   % end
+
 % end

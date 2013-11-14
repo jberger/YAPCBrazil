@@ -15,7 +15,7 @@
     % end
 
     %= p ms_overlay => '2-' => begin
-      This example tests that:
+      This test is from the test suite. It tests that:
       %= incremental 3 => ul begin
         %= li 'for \(1\) election'
           %= ul begin

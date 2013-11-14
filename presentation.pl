@@ -46,6 +46,7 @@ $pres->{slides}{list} = [qw/
   Cooke_Mathematica
   uemcolumn
   testing
+  no_bugs
   can_share
   thanks
 /];

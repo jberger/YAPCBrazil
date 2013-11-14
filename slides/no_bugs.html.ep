@@ -1,0 +1,8 @@
+% title 'Yay! No bugs!';
+
+%= div '.center' => begin
+  %= image 'phd_bug.gif'
+  %= p begin
+    <a href="http://www.phdcomics.com/comics/archive.php?comicid=180">Ph.D. Comics</a>
+  % end
+% end

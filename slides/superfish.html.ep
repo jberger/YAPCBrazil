@@ -5,15 +5,17 @@
 %= row begin
 
 %= column 6 => begin
-  %= ul begin
+  %= vspace '50px'
+  %= incremental ul begin
+    %= li 'Some similar code exists'
     %= li 'Configuration is too complicated'
     %= li 'This is from their website:'
   % end
 
-  %= p ms_overlay => '2-' => begin
+  %= p ms_overlay => '3-' => begin
     From <a href="http://laacg1.lanl.gov/laacg/services/serv_codes.phtml">Los Alamos Acc. Code Group (LAACG) Site</a>
   % end
-  %= div '.well', ms_overlay => '2-' => begin
+  %= div '.well', ms_overlay => '3-' => begin
     <p>Getting Started with Poisson Superfish</p>
 
     <p>The best way to learn about Poisson Superfish is to run the sample problems described in the documentation (LA-UR-96-1834). We do not recommend trying to build an input file "from scratch." Instead, find an example file that is similar to the problem you are trying to solve. Make a copy of the file and then make any necessary modifications to the geometry and options.</p>
@@ -21,7 +23,7 @@
 % end
 
 %= column 6 => begin
-  %= div ms_overlay => '3-' => begin
+  %= div ms_overlay => '4-' => begin
     % while ( 1 ) {
       % my ($dir, $file, $full) = $iter->();
       % last unless defined $full;

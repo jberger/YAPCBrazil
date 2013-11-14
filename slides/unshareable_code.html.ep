@@ -21,11 +21,11 @@
   % end 
 
   %= column 6 => begin
-    %= p '.center' => begin
+    %= div '.center', ms_overlay => '10-' => begin
       %= image 'good_code.png', width => '50%'
-    % end
-    %= p '.center' => begin
-      <a href="http://xkcd.com/844/">XKCD</a>
+      %= p begin
+        <a href="http://xkcd.com/844/">XKCD</a>
+      % end
     % end
   % end
 

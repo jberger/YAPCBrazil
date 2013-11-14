@@ -1,33 +1,51 @@
 % title 'Code Sharing';
 
-%= p begin
-  As Open Source developers, we share our code. Why?
-  %= ul begin
-    %= li 'improve the aggregate state of software'
-    %= li 'help others'
-    %= li 'exchange ideas'
-  % end
-% end
+%= row begin
+  %= column 6 => begin
 
-%= div ms_overlay => '2-', begin
-  %= p begin
-    As Scientists we share our methods and results. Why?
-    %= ul begin
-      %= li 'improve the aggregate state of knowledge'
-      %= li 'help others'
-      %= li 'exchange ideas'
+    %= p begin
+      As Open Source developers, we share our code. Why?
+      %= ul begin
+        %= li 'improve the aggregate state of software'
+        %= li 'help others'
+        %= li 'exchange ideas'
+      % end
+    % end
+
+    %= div ms_overlay => '2-', begin
+      %= p begin
+        As Scientists we share our methods and results. Why?
+        %= ul begin
+          %= li 'improve the aggregate state of knowledge'
+          %= li 'help others'
+          %= li 'exchange ideas'
+        % end
+      % end
+    % end
+
+    %= div ms_overlay => '3-', begin
+      %= p begin
+        As Scientists (many also being Open Source developers), we don't share our code. Why?
+        %= ul begin
+          %= li 'We write the code for ourselves'
+          %= li q{It's too hard to present}
+          %= li 'It does not fit in publications'
+          %= li q{It wasn't designed with end-users in mind}
+        % end
+      % end
+    % end
+
+  % end
+
+  %= column 6 => begin
+    %= vspace '30px'
+    %= div '.center', ms_overlay => '4-' => begin
+      %= p 'I understand ... you are busy'
+      %= image 'phd_unused.gif'
+      %= p begin
+        <a href="http://www.phdcomics.com/comics/archive.php?comicid=1050">Ph.D. Comics</a>
+      % end
     % end
   % end
-% end
 
-%= div ms_overlay => '3-', begin
-  %= p begin
-    As Scientists (many also being Open Source developers), we don't share our code. Why?
-    %= ul begin
-      %= li 'We write the code for ourselves'
-      %= li q{It's too hard to present}
-      %= li 'It does not fit in publications'
-      %= li q{It wasn't designed with end-users in mind}
-    % end
-  % end
 % end
