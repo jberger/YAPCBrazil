@@ -13,12 +13,12 @@
     \]
     \[
       \begin{gather}
-        F_z = m a_z \\\\
+      a_z = \frac{1}{m} \sum\limits_{f} F_z^{\lbrace f \rbrace} \\\\
         \xi \equiv \sqrt{\frac{\sigma_z}{\sigma_t}} \\\\
         L_{\alpha}(\xi) \text{ is well behaved }
       \end{gather}
     \]
-    And each element \(f\) contributes one or more \(M\) terms.
+    And each element \(f\) contributes one or more \(M_{\alpha}\) and/or \(F_z\) terms.
   % end
 
 % end
