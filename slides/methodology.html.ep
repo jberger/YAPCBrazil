@@ -2,8 +2,19 @@
 
 %= row begin
 
-  %= column [6, 'offset-3'] => begin
+  %= column 6 => begin
     %= include 'column_methodology', increment => 1
+  % end
+
+  %= column 6 => begin
+    %= vspace '300px'
+    %= div '.center' => ms_overlay => '8-' => begin
+      %= p 'These really just extend from good programming practices'
+      %= image 'goto.png', width => '90%'
+      %= p begin
+        <a href="http://xkcd.com/292/">XKCD</a>
+      % end
+    % end
   % end
 
 % end

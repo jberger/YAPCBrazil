@@ -1,0 +1,37 @@
+% title 'Now you can share!';
+
+%= p begin 
+  Share your simulation modules via:
+  %= ul begin
+    %= li 'GitHub'
+    %= li 'CPAN'
+    %= ul begin
+      %= li 'Physics::RayTransfer'
+      %= li 'Physics::UEMColumn'
+    % end
+  % end
+  Of course CPAN can help satisfy:
+  %= ul begin
+    %= li 'Perl dependencies'
+    %= li 'C dependencies via Alien:: modules (plug: Alien::Base)'
+  % end
+% end
+
+%= p begin
+  Include your simulation library from publication!
+  %= ul begin
+    %= li 'Specify module name and version (and repository if not on CPAN)'
+    %= li 'Include your script in the text or appendix'
+  % end
+  Reads/reviewers may now:
+  %= ul begin
+    %= li 'Read your script'
+    %= li 'Further investigate your module if desired'
+    %= li 'See your tests!'
+    %= li 'Use your module'
+    %= ul begin
+      %= li 'Module is versioned for reproducibility'
+      %= li 'Site your paper when doing so'
+    % end
+  % end
+% end

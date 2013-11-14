@@ -1,6 +1,8 @@
-%= div '.jumbotron.center' => begin
-  %= h3 begin
-    Simulations as modules</br>Configuration as scripts
+%= div '.jumbotron' => begin
+  %= ul begin
+    %= li 'Simulations as modules'
+    %= li 'Configuration as scripts'
+    %= li 'Equations as closures/subrefs'
   % end
 % end
 %= vspace '30px'
