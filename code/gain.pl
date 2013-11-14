@@ -1,10 +1,7 @@
 #!/usr/bin/env perl
 
-use strict;
-use warnings;
-
+use strict; use warnings;
 use Physics::RayTransfer;
-
 use PDL;
 use PDL::Graphics::Prima::Simple;
 
@@ -29,4 +26,3 @@ my @w =
   $sys->evaluate_parameterized($f);
 
 line_plot pdl($f), pdl(\@w);
-
