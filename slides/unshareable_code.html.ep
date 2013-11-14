@@ -12,7 +12,7 @@
       %= ul begin
         %= li '"How do you test a simulation?"'
       % end
-      %= li 'The system does not encourage sharing'
+      %= li 'The academic system does not encourage sharing'
       %= ul begin
         %= li '"It will not fit in publications"'
       % end

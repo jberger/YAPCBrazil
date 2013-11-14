@@ -16,6 +16,10 @@
     %= p begin
       The talk is also online at <a href="http://brasil.joel-berger.com/">http://brasil.joel-berger.com/</a> so you can follow along!
     % end
+
+    %= p begin
+      Some of the slides are LONG. Sorry :-)
+    % end
   % end
 
 % end

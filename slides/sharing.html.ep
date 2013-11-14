@@ -26,7 +26,7 @@
     %= div ms_overlay => '3-', begin
       %= p begin
         As Scientists (many also being Open Source developers), we don't share our code. Why?
-        %= ul begin
+        %= ul ms_overlay => '4-' => begin
           %= li 'We write the code for ourselves'
           %= li q{It's too hard to present}
           %= li 'It does not fit in publications'
@@ -39,7 +39,7 @@
 
   %= column 6 => begin
     %= vspace '30px'
-    %= div '.center', ms_overlay => '4-' => begin
+    %= div '.center', ms_overlay => '5-' => begin
       %= p 'I understand ... you are busy'
       %= image 'phd_unused.gif'
       %= p begin
