@@ -9,12 +9,13 @@
       %= li 'Add parameterized gap'
       %= li 'Add flat mirror'
       %= li 'Create list of \(L\) values (0 to 10 by 0.1)'
-      %= li 'Get resulting \(w\) for each \(L\)'
+      %= li 'Generate an equivalent matrix for each \(L\)'
+      %= li 'Get resulting \(w\) for each matrix (and thus each \(L\))'
       %= li 'Plot using PDL and P::G::Prima'
     % end
 
     %= vspace '30px'
-    %= incremental 8, ul begin
+    %= incremental 9, ul begin
       %= li 'Easy to read'
       %= li 'Easy to change'
       %= li 'Easier to test'

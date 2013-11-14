@@ -21,6 +21,13 @@
   \end{pmatrix}
 % end
 
+% my $M_abcd = begin
+  \begin{pmatrix}
+    a & b \\\\
+    c & d
+  \end{pmatrix}
+% end
+
 %= vspace '50px'
 
 %= row begin
@@ -41,11 +48,15 @@
     % end
 
     %= div ms_overlay => '3' => begin
-    \[ <%= $M_I->() . $M_L->() . $M_R->() %> \]
+      \[ <%= $M_I->() . $M_L->() . $M_R->() %> \]
     % end
 
-    %= div ms_overlay => '4-' => begin
-    \[ <%= $M_I->() . $M_L->() . $M_R->() . $M_L->() %> \]
+    %= div ms_overlay => '4-5' => begin
+      \[ <%= $M_I->() . $M_L->() . $M_R->() . $M_L->() %> \]
+    % end
+
+    %= div ms_overlay => '6-' => begin
+      \[ <%= $M_I->() . $M_L->() . $M_R->() . $M_L->() %> \equiv <%= $M_abcd->() %> \]
     % end
 
     %= vspace '50px'
@@ -56,6 +67,11 @@
       %= li 'Reflect off curved mirror of ROC \(R\)'
       %= li 'Traverse the distance \(L\) back to OC'
       %= li 'Check spot size (\(w\)) at OC'
+      %= ul begin
+        %= li begin
+          \( w(\lambda) = \sqrt{ \frac{\left|b\right| \lambda}{\pi} \sqrt{\frac{1}{ 1 - \frac{1}{4} (a+d)^2 }} } \)
+        % end
+      % end
       %= li 'Cavity is stable if \(w\) is real for given \(L\)'
       %= li 'Matricies become unmanageable for all but simplest systems'
     % end
