@@ -7,12 +7,12 @@
   % end
 
   %= column 6 => begin
-    %= vspace '300px'
+    %= vspace '50px'
     %= div '.center' => ms_overlay => '8-' => begin
-      %= p 'These really just extend from good programming practices'
-      %= image 'goto.png', width => '90%'
+      %= h3 'Mostly these are good programming practices'
+      %= image 'good_code.png', width => '50%'
       %= p begin
-        <a href="http://xkcd.com/292/">XKCD</a>
+        <a href="http://xkcd.com/844/">XKCD</a>
       % end
     % end
   % end

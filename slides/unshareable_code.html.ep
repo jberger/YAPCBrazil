@@ -16,15 +16,15 @@
       %= ul begin
         %= li '"It will not fit in publications"'
       % end
-      %= li q{"I can't share this!"}
     % end
   % end 
 
   %= column 6 => begin
-    %= div '.center', ms_overlay => '10-' => begin
-      %= image 'good_code.png', width => '50%'
+    %= div '.center', ms_overlay => '9-' => begin
+      %= h3 q{I can't share this!}
+      %= image 'goto.png', width => '90%'
       %= p begin
-        <a href="http://xkcd.com/844/">XKCD</a>
+        <a href="http://xkcd.com/292/">XKCD</a>
       % end
     % end
   % end
