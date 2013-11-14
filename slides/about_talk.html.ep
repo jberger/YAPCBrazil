@@ -1,0 +1,21 @@
+% title 'About This Talk';
+
+%= row begin 
+
+  %= incremental column [6, 'offset-3'] => begin
+    %= p 'All (Perl) code you will see really runs. I will run most of it for you live.'
+    %= p begin
+      This talk was written using <a href="http://metacpan.org/module/App::MojoSlides">App::MojoSlides</a> and <a href="http://mojolicio.us">Mojolicious</a>.
+    % end
+    %= p begin
+      I wrote App::MojoSlides for this talk, based on earier work, and it bears a dedication to all of you!
+    % end
+    %= p begin
+      The source of the talk is available at <a href="https://github.com/jberger/YAPCBrazil">https://github.com/jberger/YAPCBrazil</a>
+    % end
+    %= p begin
+      The talk is also online at <a href="http://brasil.joel-berger.com/">http://brasil.joel-berger.com/</a> so you can follow along!
+    % end
+  % end
+
+% end

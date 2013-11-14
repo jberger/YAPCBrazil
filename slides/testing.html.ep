@@ -1,0 +1,44 @@
+% title 'Now you can test!';
+
+%= row begin
+
+  %= column 5 => begin
+    %= vspace '30px'
+
+    %= p begin
+      By writing your simulation as independent objects, you can:
+      %= ul begin
+        %= li 'Unit test the individual physical classes'
+        %= li 'Test the simulation in some known state, possibly trival'
+        %= li 'Test that known behaviors emerge'
+      % end
+    % end
+
+    %= p ms_overlay => '2-' => begin
+      This example tests that:
+      %= incremental 3 => ul begin
+        %= li 'for \(1\) election'
+          %= ul begin
+            %= li 'simulation completes'
+            %= li 'beam constantly expands'
+          % end
+        %= li 'for \(10^6\) elections'
+          %= ul begin
+            %= li 'simulation completes'
+            %= li 'beam constantly expands'
+          % end
+        %= li 'expansion is faster for \(10^6\) than \(1\)'
+      % end
+    % end
+
+    %= p ms_overlay => '8-' => 'Note: this demonstrates that you can loop over simulations too!'
+  % end
+
+
+  %= column 7 => begin
+    %= div ms_overlay => '2-' => begin
+      %= ppi 'free-propagation.t'
+    % end
+  % end
+
+% end

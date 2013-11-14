@@ -27,6 +27,7 @@ my $pres = {
 
 $pres->{slides}{list} = [qw/
   title
+  about_talk
   sharing
   unshareable_code
   methodology
@@ -40,9 +41,11 @@ $pres->{slides}{list} = [qw/
   methodology_example
   example_simulator
   problem_configuration
+  microscope
   superfish
   Cooke_Mathematica
   uemcolumn
+  testing
   thanks
 /];
 

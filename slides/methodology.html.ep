@@ -3,7 +3,7 @@
 %= row begin
 
   %= column [6, 'offset-3'] => begin
-    %= include 'column_methodology'
+    %= include 'column_methodology', increment => 1
   % end
 
 % end

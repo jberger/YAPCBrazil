@@ -5,7 +5,7 @@
 % end
 %= vspace '30px'
 
-%= ul ms_overlay => '2-' => begin
+% my $html = ul ms_overlay => '2-' => begin
   %= li 'Every physical item is an object'
   %= ul begin
     %= li 'Including Observer (if needed)'
@@ -25,3 +25,5 @@
     %= li 'Tracks system evolution'
   % end
 % end
+
+%= stash('increment') ? incremental $html : $html

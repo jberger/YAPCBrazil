@@ -1,0 +1,24 @@
+% title 'Electron Beam in Microscope';
+
+%= div '.center' => begin
+  %== slurp 'public/column_lenses.svg'
+
+  %= p ms_overlay => '6-' => begin
+    \[ 
+      \left . \begin{gather}
+        \frac{d\sigma_{\alpha}}{dt} = \frac{2\gamma_{\alpha}}{m} \\\\
+        \frac{d\gamma_{\alpha}}{dt} = \frac{ \Gamma_{\alpha}^2 + \gamma_{\alpha}^2 }{\sigma_{\alpha} m}
+          + \frac{N e^2}{4\pi\varepsilon_0} \frac{1}{6 \sqrt{\sigma_{\alpha}\pi}} L_{\alpha}(\xi) + \sigma_{\alpha} \sum\limits_{f} M_{\alpha}^{\lbrace f \rbrace} 
+      \end{gather} \right \rbrace \text{  for  } \alpha = \{t, z\}
+    \]
+    \[
+      \begin{gather}
+        F_z = m a_z \\\\
+        \xi \equiv \sqrt{\frac{\sigma_z}{\sigma_t}} \\\\
+        L_{\alpha}(\xi) \text{ is well behaved }
+      \end{gather}
+    \]
+    And each element \(f\) contributes one or more \(M\) terms.
+  % end
+
+% end
